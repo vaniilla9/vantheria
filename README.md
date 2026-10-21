@@ -1,7 +1,6 @@
 # Vantheria
 
-A dark-fantasy, turn-based RPG for iPhone, built natively in SwiftUI. It started as an RPG I ran as a Discord
-bot in Python. I rebuilt it from the ground up as a full mobile game with a seven-chapter story, tactical
+A dark-fantasy, turn-based RPG for iPhone, built natively in SwiftUI. It started as an RPG I ran on my Discord server, and I rebuilt it from the ground up as a full mobile game with a seven-chapter story, tactical
 battles and a deterministic, fully tested game engine.
 
 **Swift · SwiftUI · Swift Testing · AVFoundation · iCloud · XcodeGen · no third-party dependencies**
@@ -38,9 +37,8 @@ me at [vaniilla9@icloud.com](mailto:vaniilla9@icloud.com) for access.
 
 ## Technical highlights
 
-- **From chat bot to native game:** I ported a Python Discord bot's systems and formulas into ~17,600 lines of
-  Swift, then redesigned the parts that were buggy in the original, like buffs that permanently changed base
-  stats.
+- **From chat bot to native game:** ~17,600 lines of Swift written from scratch, redesigning the original
+  bot game's systems, such as buffs that permanently changed base stats in the original.
 - **Pure, deterministic engine:** game logic has no UI dependencies, and all randomness goes through an
   injectable source, so any battle or playthrough can be replayed exactly. The UI animates a stream of battle
   events the engine emits.
