@@ -6,6 +6,11 @@ battles and a deterministic, fully tested game engine.
 
 **Swift · SwiftUI · Swift Testing · AVFoundation · iCloud · XcodeGen · no third-party dependencies**
 
+### ▶ [Play the beta on TestFlight](https://testflight.apple.com/join/w8hMG9HQ)
+
+Works on iPhone and iPad with Apple's free TestFlight app. If the beta is full or the build has expired, email
+me at [vaniilla9@icloud.com](mailto:vaniilla9@icloud.com) for access.
+
 <p align="center">
   <img src="docs/01-story.png" width="200" alt="Chapter intro: Ashen Reach">
   <img src="docs/03-boss-battle.png" width="200" alt="Boss battle against Ozrak, the Cinder King">
@@ -51,7 +56,8 @@ battles and a deterministic, fully tested game engine.
 
 ## Status
 
-Feature-complete and in beta testing on TestFlight, with an App Store release planned.
+Feature-complete and in public beta on [TestFlight](https://testflight.apple.com/join/w8hMG9HQ), with an App Store
+release planned.
 
 ---
 
