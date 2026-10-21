@@ -16,9 +16,9 @@ me at [vaniilla9@icloud.com](mailto:vaniilla9@icloud.com) for access.
   <img src="docs/04-classes.png" width="200" alt="Class tree">
 </p>
 <p align="center">
-  <img src="docs/02-adventure.png" width="200" alt="Branching dice-roll adventure">
+  <img src="docs/02-adventure.png" width="200" alt="Ashen Reach area hub">
   <img src="docs/05-bestiary.png" width="200" alt="Bestiary">
-  <img src="docs/06-crafting.png" width="200" alt="Forge and crafting">
+  <img src="docs/06-crafting.png" width="200" alt="Smithy shop">
 </p>
 
 > The source code is in a private repository. I'm happy to walk through it or share access for interviews.
@@ -47,7 +47,7 @@ me at [vaniilla9@icloud.com](mailto:vaniilla9@icloud.com) for access.
 - **Balance by simulation:** a command-line simulator compiles the real engine and has bot players (optimal,
   typical, casual) play through the game across many random seeds. It reports pacing, win rates and damage
   taken per enemy, so balance changes are measured instead of guessed.
-- **129 automated tests** in Swift Testing, covering formulas, the battle engine, data integrity, progression,
+- **132 automated tests** in Swift Testing, covering formulas, the battle engine, data integrity, progression,
   localization and full-area playthroughs.
 - **Reproducible project:** the Xcode project is generated from a spec file with XcodeGen, so the build is
   defined in code.
