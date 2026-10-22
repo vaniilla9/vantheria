@@ -3,6 +3,8 @@
 A dark-fantasy, turn-based RPG for iPhone, built natively in SwiftUI. It started as an RPG I ran on my Discord server, and I rebuilt it from the ground up as a full mobile game with a seven-chapter story, tactical
 battles and a deterministic, fully tested game engine.
 
+> **Coming soon to the App Store.** In public beta on TestFlight now.
+
 **Swift · SwiftUI · Swift Testing · AVFoundation · iCloud · XcodeGen · no third-party dependencies**
 
 ### ▶ [Play the beta on TestFlight](https://testflight.apple.com/join/w8hMG9HQ)
@@ -37,7 +39,7 @@ me at [vaniilla9@icloud.com](mailto:vaniilla9@icloud.com) for access.
 
 ## Technical highlights
 
-- **From chat bot to native game:** ~17,600 lines of Swift written from scratch, redesigning the original
+- **From chat bot to native game:** ~19,400 lines of Swift written from scratch, redesigning the original
   bot game's systems, such as buffs that permanently changed base stats in the original.
 - **Pure, deterministic engine:** game logic has no UI dependencies, and all randomness goes through an
   injectable source, so any battle or playthrough can be replayed exactly. The UI animates a stream of battle
@@ -47,7 +49,7 @@ me at [vaniilla9@icloud.com](mailto:vaniilla9@icloud.com) for access.
 - **Balance by simulation:** a command-line simulator compiles the real engine and has bot players (optimal,
   typical, casual) play through the game across many random seeds. It reports pacing, win rates and damage
   taken per enemy, so balance changes are measured instead of guessed.
-- **132 automated tests** in Swift Testing, covering formulas, the battle engine, data integrity, progression,
+- **139 automated tests** in Swift Testing, covering formulas, the battle engine, data integrity, progression,
   localization and full-area playthroughs.
 - **Reproducible project:** the Xcode project is generated from a spec file with XcodeGen, so the build is
   defined in code.
